@@ -1,0 +1,220 @@
+.page{
+    background-color: #cccccc;
+    height: 100%;
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/1715290266489849255/74DACC2D974A0F19DE970C57A1BFC4CF5AFD64C6/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+    /* background-repeat: no-repeat; */
+    background-size: 45%,50%
+}
+
+.main{
+    background-color: black;
+    height: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    opacity: 0.95;
+}
+
+.HUD:hover{
+    background-color: rosybrown;
+}
+
+
+.header{
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border: solid red 2px;
+    padding:10px;
+    /* margin-top: 10px; */
+}
+
+.title{
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 15px;
+}
+
+.subhead{
+    /* margin-top: 50px; */
+    padding-top: 40px;
+    color: white;
+    text-align: center;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fanart{
+    height: 200px;
+    width: 500px;
+}
+
+
+.profile{
+    display: flex;
+    margin-left: -50px;
+    /* margin-right: 50px; */
+    /* margin-top: -30px; */
+    margin-bottom: 60px;
+    border: solid slateblue 2px;
+    align-items: baseline;
+    height: 500px;
+    width:400px;
+}
+.gun{
+    display: flex;
+    /* margin-left: -50px; */
+    /* margin-right: 50px; */
+    /* margin-top: -30px; */
+    margin-bottom: 60px;
+    border: solid slateblue 2px;
+    align-items: baseline;
+    height: 400px;
+    width:500px;
+}
+
+
+.bio{
+    /* display: flex; */
+    width: 300px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.abilities{
+    height: 100%;
+    width: inherit;
+    /* border: solid yellow 2px    ; */
+    margin-right: 20px;
+    margin-left: 20px;
+    /* flex-wrap: reverse-wrap; */
+    /* contain: content; */
+    display: flex;
+    /* jsut */
+    margin-top: 5px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap-reverse;
+    object-fit: contain;
+    /* contain: content; */
+    /* overflow:inherit */
+    /* clear: none; */
+}
+
+.iconImg{
+    background-color: inherit;
+}
+
+.iconImg:hover{
+    background-color:lightgoldenrodyellow;
+    cursor: pointer;
+}
+
+.weaponIcon{
+    background-color:#ddffdd;
+    opacity: .95;
+}
+
+.weaponIcon:hover{
+    opacity: .6;
+    cursor: pointer;
+}
+
+img{
+    object-fit: contain;
+    
+}
+
+/* button:hover{
+    background-color:rosybrown;
+} */
+
+button{
+    margin: 3px;
+    border-radius: 5px;
+    border: solid white 1px;
+    padding: 5px;
+    background-color:palevioletred;
+    color: black;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    /* justify-content: center; */
+}
+a:visited { 
+    text-decoration: none; 
+    color: black; 
+}
+/* a:focus { text-decoration: none; color:brown; } */
+a:active { text-decoration: none; color:teal; }
+a{
+    text-decoration: none;
+}
+
+h1{
+    color:white;
+    margin:auto;
+    margin-top: 20px;
+}
+
+p{
+    color: white;
+    vertical-align: bottom;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.figure {
+    /* float: right; */
+    width: 30%;
+    border: thin silver solid;
+    /* margin: 0.5em;
+    padding: 0.5em; */
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    margin: 50px
+}
+.scaled {
+    width: 100%;
+}
+/* .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    display: flex;
+    contain: content;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    margin-top: 100px;
+
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+} */
+
+.flex{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin-right: 20px;
+}
